@@ -24,6 +24,8 @@ module.exports = {
     "import/prefer-default-export": "off",
     "import/no-extraneous-dependencies": "off",
     "react/require-default-props": "off",
+    "@typescript-eslint/restrict-template-expressions": "off",
+    "@typescript-eslint/no-unsafe-member-access": "off",
     "react/function-component-definition": [
       "warn",
       {
