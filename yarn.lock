@@ -1734,7 +1734,14 @@
   "resolved" "https://registry.npmjs.org/@mui/core-downloads-tracker/-/core-downloads-tracker-5.13.4.tgz"
   "version" "5.13.4"
 
-"@mui/material@^5.13.4":
+"@mui/icons-material@^5.11.16":
+  "integrity" "sha512-oKkx9z9Kwg40NtcIajF9uOXhxiyTZrrm9nmIJ4UjkU2IdHpd4QVLbCc/5hZN/y0C6qzi2Zlxyr9TGddQx2vx2A=="
+  "resolved" "https://registry.npmjs.org/@mui/icons-material/-/icons-material-5.11.16.tgz"
+  "version" "5.11.16"
+  dependencies:
+    "@babel/runtime" "^7.21.0"
+
+"@mui/material@^5.0.0", "@mui/material@^5.13.4", "@mui/material@^5.4.1":
   "integrity" "sha512-Yq+4f1KLPa/Szd3xqra2hbOAf2Usl8GbubncArM6LIp40mBLtXIdPE29MNtHsbtuzz4g+eidrETgoi3wdbEYfQ=="
   "resolved" "https://registry.npmjs.org/@mui/material/-/material-5.13.4.tgz"
   "version" "5.13.4"
@@ -1771,7 +1778,7 @@
     "csstype" "^3.1.2"
     "prop-types" "^15.8.1"
 
-"@mui/system@^5.13.2":
+"@mui/system@^5.13.2", "@mui/system@^5.4.1":
   "integrity" "sha512-TPyWmRJPt0JPVxacZISI4o070xEJ7ftxpVtu6LWuYVOUOINlhoGOclam4iV8PDT3EMQEHuUrwU49po34UdWLlw=="
   "resolved" "https://registry.npmjs.org/@mui/system/-/system-5.13.2.tgz"
   "version" "5.13.2"
@@ -1800,6 +1807,17 @@
     "@types/react-is" "^18.2.0"
     "prop-types" "^15.8.1"
     "react-is" "^18.2.0"
+
+"@mui/x-data-grid@^6.6.0":
+  "integrity" "sha512-RCAdQM4D0RWLnFCtuv6pJEFqUtH3WmlTU2Av+p3Ir2Utw03FQzc81oOpOZNv/6SXv+rMa+i42pb6fW0U5Xz0AQ=="
+  "resolved" "https://registry.npmjs.org/@mui/x-data-grid/-/x-data-grid-6.6.0.tgz"
+  "version" "6.6.0"
+  dependencies:
+    "@babel/runtime" "^7.21.0"
+    "@mui/utils" "^5.13.1"
+    "clsx" "^1.2.1"
+    "prop-types" "^15.8.1"
+    "reselect" "^4.1.8"
 
 "@nicolo-ribaudo/eslint-scope-5-internals@5.1.1-v1":
   "integrity" "sha512-54/JRvkLIzzDWshCWfuhadfrfZVPiElY8Fcgmg1HroEly/EDSszzhBAsarCux+D/kOslTRquNzuyGSmUSTTHGg=="
@@ -8313,6 +8331,11 @@
   "integrity" "sha512-KigOCHcocU3XODJxsu8i/j8T9tzT4adHiecwORRQ0ZZFcp7ahwXuRU1m+yuO90C5ZUyGeGfocHDI14M3L3yDAQ=="
   "resolved" "https://registry.npmjs.org/requires-port/-/requires-port-1.0.0.tgz"
   "version" "1.0.0"
+
+"reselect@^4.1.8":
+  "integrity" "sha512-ab9EmR80F/zQTMNeneUr4cv+jSwPJgIlvEmVwLerwrWVbpLlBuls9XHzIeTFy4cegU2NHBp3va0LKOzU5qFEYQ=="
+  "resolved" "https://registry.npmjs.org/reselect/-/reselect-4.1.8.tgz"
+  "version" "4.1.8"
 
 "resolve-cwd@^3.0.0":
   "integrity" "sha512-OrZaX2Mb+rJCpH/6CpSqt9xFVpN++x01XnN2ie9g6P5/3xelLAkXWVADpdz1IHD/KFfEXyE6V0U01OQ3UO2rEg=="

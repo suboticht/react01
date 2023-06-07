@@ -8,7 +8,7 @@ export default function SideBar() {
         </div>
         <ul className="list-menu pl-7 mt-4">
             {routes.map((route, i) => {
-                return <li key={route.key} className='mb-2'>
+                return <li key={route.key} className='mb-2 transition-colors duration-150 hover:opacity-80'>
                     <Link to={route.path}>{route.name}</Link>
                 </li>
             })}

@@ -11,7 +11,7 @@ const publicPage = [
     {
         path: '/profile',
         name: 'Profile',
-        key: '1',
+        key: '2',
         component: Profile 
     },
 ]
