@@ -26,6 +26,7 @@ module.exports = {
     "react/require-default-props": "off",
     "@typescript-eslint/restrict-template-expressions": "off",
     "@typescript-eslint/no-unsafe-member-access": "off",
+    "@typescript-eslint/no-unsafe-argument": "off",
     "react/function-component-definition": [
       "warn",
       {
